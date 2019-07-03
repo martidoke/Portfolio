@@ -171,7 +171,7 @@
 }
 
 .case-study-image img {
-  max-width: 100vw;
+  width:90%;
 }
 
 /* problem and solution */
@@ -201,14 +201,14 @@
 
 .chapter {
   display: flex;
-  flex-wrap:wrap;
-  padding: 3rem 0;
+  flex-wrap: wrap;
+  gap:5%;
+  padding: 5rem 0;
 }
 
 .title {
   flex:1 1 230px;
-  padding-bottom: 2rem;
-
+  padding: 0 5rem 5rem 0;
 }
 
 .content {
@@ -216,18 +216,28 @@
 }
 
 .topic {
-
+  padding-bottom: 5rem;
 }
+
 
 .content-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 
+.content-images li{
+  flex: 1 1 250px;
+  padding-right: 1rem;
+}
+
 .content-images img{
-  flex: 1 1 150px;
+  width:100%;
+
+}
+
+.img-max img {
+  width:100%;
 }
 
 

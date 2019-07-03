@@ -14,6 +14,7 @@ h1 {
 h2 {
   font-family: "Lora";
   font-size: 2.2rem;
+  line-height: 150%;
 }
 
 h3 {
@@ -26,6 +27,7 @@ h3 {
 h4 {
   font-size: 2rem;
   padding-bottom: 2rem;
+  line-height:166%;
 }
 
 p {
@@ -46,7 +48,7 @@ button {
   display: inline-block;
   font-size: 1.4rem;
   font-family: "lora";
-  margin: .5rem 0;
+  margin: .5rem 2rem .5rem 0;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
