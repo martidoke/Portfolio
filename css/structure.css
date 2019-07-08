@@ -10,11 +10,97 @@
   background-color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu */
+
+.hamburger-menu {
+  background-color: #dcd0c0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Lora";
+}
+
+.closebtn {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  font-size: 4rem;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+
+.hamburger-menu a:hover, .hamburger-menu a:focus {
+  color: #373737;
+}
+
+@media screen and (max-height: 450px) {
+  .hamburger-menu a {font-size: 20px}
+  .hamburger-menu .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+.menu-items {
+  padding: 2rem;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  font-size: 3rem;
+  color: #f4f4f4;
+}
+
+.menu ul{
+  align-self: center;
+  padding-left: 1.2rem;
+}
+
+.ul-social li {
+  display: inline;
+}
+
 /* nav */
+
+
+
+
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  margin: 3rem auto;
+  margin: 0 auto;
+  padding: 3rem 5%;
   max-width: 1500px;
 }
 
@@ -41,13 +127,14 @@
   display: flex;
   flex: 1 1 0;
   justify-content: flex-end;
+  padding-right: 1rem;
 }
 
 .social-item {
   flex: 0 0 0;
   color: #C0B283;
   font-size: 2rem;
-  padding-left: 1rem;
+  padding-right: 1.2rem;
 }
 
 /* homepage greeting */
@@ -59,22 +146,55 @@
 }
 
 .intro {
-  flex: 1 1 230px;
+  flex: 1 1 250px;
   padding-bottom: 3rem;
+  z-index: 50;
+  position:static;
 }
 
-.intro-image {
+.hero-image {
   flex:2 1 460px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   padding-bottom: 3rem;
 }
 
+.intro-image img {
+  z-index: 20;
+  position: relative;
+  width: 90%;
+  margin: 5% 5% 0 0;
+}
+
+.brown-box-div {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1500px;
+  justify-content: flex-end;
+}
+
+.brown-box {
+  background-color: #dcd0c0;
+  z-index: -10;
+  position: absolute;
+  width: 375px;
+  max-height:600px;
+  height: 75%;
+}
+
 .greeting {
   font-size: 6rem;
+  padding-bottom: 1rem;
 }
 
 /* homepage work section */
+#showcase {
+  position: relative;
+}
+
+
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -168,11 +288,15 @@
   display: flex;
   justify-content: flex-end;
   padding-bottom: 3rem;
+  z-index: 20;
+  position: relative;
 }
 
 .case-study-image img {
   width:90%;
 }
+
+
 
 /* problem and solution */
 

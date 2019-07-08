@@ -68,6 +68,15 @@ li {
   line-height: 166%;
 }
 
+i {
+  color: #f4f4f4;
+}
+
+header {
+  z-index: 50;
+  position: static;
+}
+
 footer {
   font-size: 1.2rem;
   justify-content: right;
