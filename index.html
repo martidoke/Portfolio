@@ -11,53 +11,66 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 
-
-
   <body>
     <header>
-
-
+      <!-- brown box -->
       <div class="brown-box-div">
-        <div class="brown-box">
+        <div class="brown-box"></div>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav">
+        <div class="brand ">
+          <a href="index.html"><img class="logo" src="img\logo.png"/></a>
+        </div>
+        <div class="page-nav">
+          <a class="nav-item" href="#showcase">Work</a>
+          <a class="nav-item" href="biography.html">About</a>
+          <a class="nav-item" href="mailto:doke.marti@gmail.com">Contact</a>
+        </div>
+        <div class="social">
+          <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
-      <div class="nav">
-          <div class="brand ">
-            <a href="index.html"><img class="logo" src="img\logo.png" /></a>
-          </div>
-          <div class="page-nav">
-            <a class="nav-item" href="work.html">Work</a>
-            <a class="nav-item" href="biography.html">About</a>
-            <a class="nav-item" href="contact.html">Contact</a>
-          </div>
-          <div class="social">
-            <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+      <!-- mobile nav -->
+      <div id="myNav" class="hamburger-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu">
+          <a class="menu-items" href="#showcase">Work</a>
+          <a class="menu-items">About</a>
+          <a class="menu-items" href="mailto:doke.marti@gmail.com">Contact</a>
+          <div class="menu-items">
+            <ul class="ul-social">
+              <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+            </ul>
           </div>
         </div>
-    <!-- hero -->
-    <div class="full-width">
-      <section id="hero">
-        <div class="intro">
-          <div class="greeting">Hello.</div>
-          <h1>I'm Marti Doke</h1>
-          <h2 class="thin">UX Designer | Northern Colorado</h2>
-          <p>By combining a methodical mindset with a creative sensibility, I design innovative, research-driven, user advocating solutions that are sleek, intuitive, and effortless.</p>
-        </div>
-        <div class="hero-image">
-          <div class="intro-image">
-            <img src="img\profile-image.png" alt="Personal Picture">
+      </div>
+      <span style="font-size:25px;cursor:pointer;color: #373737" onclick="openNav()">&#9776;</span>
+      <!-- hero -->
+      <div class="full-width">
+        <section id="hero">
+          <!-- intro text -->
+          <div class="intro">
+            <div class="greeting">Hello.</div>
+            <h1>I'm Marti Doke</h1>
+            <h2 class="thin">UX Designer | Northern Colorado</h2>
+            <p>By combining a methodical mindset with a creative sensibility, I design innovative, research-driven, user advocating solutions that are sleek, intuitive, and effortless.</p>
           </div>
-          <!-- <div class="brown-box">
-
-          </div> -->
-        </div>
-
-      </section>
-    </div>
+          <!-- intro image -->
+          <div class="hero-image">
+            <div class="intro-image">
+              <img src="img\profile-image.png" alt="Personal Picture" />
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
 
+<!-- project section-->
 
     <section id="showcase">
       <div class="title">
@@ -65,63 +78,31 @@
         <h1>Some Recent Projects</h1>
       </div>
       <div class="projects">
+        <!-- project 1 -->
         <div id="stormcloud" >
           <a href="stormcloud.html"><img src="img\stormcloud.png" alt="StormCloud"></a>
           <h4><a href="stormcloud.html" class="project-link">StormCloud</a></h4>
           <p>A cloud-based application mockup enabling collaboration through features such as whiteboards and pinboards.</p>
         </div>
+        <!-- project 2 -->
         <div id="bloc-jams">
           <a href="project2.html"><img src="img\bloc-jams.png" alt="Bloc Jams"></a>
           <a href="project2.html" class="project-link"><h4>Bloc Jams</h4></a>
           <p>Worked closer with JavaScript by creating a responsive music player. Also learned how to use jQuery.</p>
         </div>
       </div>
-      <ul class="cards">
-        <li class="cards__item">
-          <div class="card">
-            <div class="card__image card__image--stormcloud"></div>
-            <div class="card__content">
-              <div class="card__title">StormCloud</div>
-              <p class="card__text">A cloud-based application mockup enabling collaboration through features such as whiteboards and pinboards.</p>
-              <button class="btn btn--block card__btn">View</button>
-            </div>
-          </div>
-        </li>
-        <li class="cards__item">
-          <div class="card">
-            <div class="card__image stormcloud"></div>
-            <div class="card__content">
-              <div class="card__title">Flex Grow</div>
-              <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-              <button class="btn btn--block card__btn">Button</button>
-            </div>
-          </div>
-        </li>
-        <li class="cards__item">
-          <div class="card">
-            <div class="card__image card__image--record"></div>
-            <div class="card__content">
-              <div class="card__title">Flex Shrink</div>
-              <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-              <button class="btn btn--block card__btn">Button</button>
-            </div>
-          </div>
-        </li>
-        <li class="cards__item">
-          <div class="card">
-            <div class="card__image card__image--flowers"></div>
-            <div class="card__content">
-              <div class="card__title">Flex Basis</div>
-              <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-              <button class="btn btn--block card__btn">Button</button>
-            </div>
-          </div>
-        </li>
-      </ul>
-
-
-
-
-
+    </section>
+    <section id="contact">
 
     </section>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>
