@@ -238,3 +238,11 @@ a.nav-item:hover {
 i:hover {
   color: #373737;
 }
+
+footer {
+  color: #C0B283;
+  font-size: 1.4rem;
+  text-align:right;
+  max-width:1320px;
+  margin: 2rem auto 5rem auto;
+}

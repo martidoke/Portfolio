@@ -52,11 +52,63 @@
 /* homepage work section */
 #showcase {
   position: relative;
+  background:#fff;
+  padding: 8rem 0 2rem 0;
+}
+
+.gold {
+  color: #C0B283;
+
+}
+
+.projects {
+  display:flex;
+  flex-wrap: wrap;
+  max-width:1200px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+#stormcloud, #bloc-jams {
+  flex: 1 1 350px;
+  margin: 0 2%;
+  background-color: #fff;
+}
+
+#stormcloud:hover, #bloc-jams:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  /* color: #f4f4f4; */
+}
+
+.project-image {
+  width:100%;
+}
+
+/* .project-image:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #f4f4f4;
+} */
+
+#stormcloud h4, #bloc-jams h4 {
+  padding: 2rem 0;
+}
+
+.project-link{
+  text-decoration: none;
+  font-size: 2.6rem;
+}
+
+.project-link:hover {
+  color: #373737;
+}
+
+.project-description {
+  width:75%;
 }
 
 /* hero */
 
-#stormcloud-hero {
+#case-study-hero {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
