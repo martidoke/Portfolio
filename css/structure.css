@@ -54,82 +54,6 @@
   position: relative;
 }
 
-
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards__item {
-  display: flex;
-  padding: 1rem;
-
-  @media(min-width: 40rem) {
-    width: 50%;
-  }
-
-  @media(min-width: 56rem) {
-    width: 33.3333%;
-  }
-}
-
-.card {
-  background-color: white;
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  &:hover {
-    .card__image {
-      filter: contrast(100%);
-    }
-  }
-}
-
-.card__content {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  filter: contrast(70%);
-  //filter: saturate(180%);
-  overflow: hidden;
-  position: relative;
-  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
-  &::before {
-    content: "";
-	  display: block;
-    padding-top: 56.25%; // 16:9 aspect ratio
-  }
-  @media(min-width: 40rem) {
-    &::before {
-      padding-top: 66.6%; // 3:2 aspect ratio
-    }
-  }
-}
-
-.card__text {
-  flex: 1 1 auto;
-  margin-bottom: 1.25rem;
-}
-
-.card__image--stormcloud {
-  background-image:url('img\stormcloud.png');
-}
-
 /* hero */
 
 #stormcloud-hero {
@@ -157,6 +81,42 @@
   width:90%;
 }
 
+
+/* about-me structure */
+.bio-image img {
+  padding-bottom: 4rem;
+}
+
+#in-short {
+  padding:5rem 5rem;
+  max-width: 1000px;
+}
+
+#about-me {
+  display: flex;
+  margin: 5rem auto;
+  flex-wrap: wrap;
+  /* grid-template-areas: "bio bio bio bio bio sidebar"; */
+}
+
+.bio {
+
+  padding: 2rem 5rem 0 0;
+  flex:5 1 460px;
+  /* width: 90%; */
+}
+
+.sidebar {
+  /* grid-area: sidebar; */
+  flex: 1 1 200px;
+  background: #dcd0c0;
+  padding: 4rem 4rem 0 4rem;
+
+}
+
+.sidebar p {
+  font-size: 1.6rem;
+}
 
 
 /* problem and solution */
