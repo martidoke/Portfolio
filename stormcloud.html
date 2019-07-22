@@ -41,14 +41,14 @@
     <div id="myNav" class="hamburger-menu">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="menu">
-        <a class="menu-items" href="index.html#showcase">Work</a>
-        <a class="menu-items" href="about-me.html">About</a>
-        <a class="menu-items" href="mailto:doke.marti@gmail.com">Contact</a>
+        <a class="menu-items" href="index.html#showcase" onclick="closeNav()">Work</a>
+        <a class="menu-items" href="about-me.html" onclick="closeNav()">About</a>
+        <a class="menu-items" href="mailto:doke.marti@gmail.com" onclick="closeNav()">Contact</a>
         <div class="menu-items">
           <ul class="ul-social">
-            <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank" onclick="closeNav()"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank" onclick="closeNav()"><i class="fab fa-instagram"></i></a>
+            <a class="social-item" href="https://github.com/martidoke" target="_blank" onclick="closeNav()"><i class="fab fa-github"></i></a>
           </ul>
         </div>
       </div>
@@ -247,17 +247,19 @@
       </section>
     </div>
   </div>
-  <footer>
+  <footer class="full-width">
     2019 | Designed & Developed by Marti Doke
   </footer>
   <script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.display = "inline-flex";
+  }
 
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("myNav").style.display = "inline-flex";
+  }
   </script>
 
 </body>

@@ -110,7 +110,8 @@ h1.bio-heading {
 .full-width {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .white-background {
@@ -120,7 +121,7 @@ h1.bio-heading {
 /* navigation */
 /* mobile menu */
 .hamburger-icon {
-  display:none;
+  display: none;
 }
 
 .hamburger-menu {
@@ -240,32 +241,8 @@ i:hover {
 
 footer {
   color: #C0B283;
-  font-size: 1.4rem;
   text-align: right;
   max-width: 1320px;
-  margin: 2rem 2rem 5rem auto;
-}
-
-/** media queries **/
-@media only screen and (max-width: 960px) {
-  html {
-    font-size: 8px;
-  }
-
-  .hamburger-icon {
-    display:flex;
-  }
-
-  .hamburger-menu {
-    display: inline-flex;
-  }
-
-  .intro-image img, .case-study-image img, .bio-image img {
-    justify-content: left;
-    width: 100%;
-  }
-
-  .page-nav, .social {
-    display: none;
-  }
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
 }

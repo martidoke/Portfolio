@@ -113,7 +113,7 @@
 }
 
 .case-study-intro {
-  flex: 1 1 230px;
+  flex: 1 1 250px;
   padding-bottom: 3rem;
 }
 
@@ -228,3 +228,29 @@
 #design {}
 
 #conclusion {}
+
+
+  /** media queries **/
+  @media only screen and (max-width: 800px) {
+    .hero-image, .case-study-image, .bio-image {
+      justify-content: flex-start;
+    }
+
+    html {
+      font-size: 8px;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    html {
+      font-size: 9px;
+    }
+
+    .hamburger-icon {
+      display: flex;
+    }
+
+    .page-nav, .social {
+      display: none;
+    }
+  }
