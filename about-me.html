@@ -1,71 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marti Doke Design</title>
-    <link rel="stylesheet" href="css\reset.css">
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\structure.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Lora" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  </head>
 
-  <body>
-    <header>
-      <!-- brown box -->
-      <div class="brown-box-div">
-        <div class="brown-box"></div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marti Doke Design</title>
+  <link rel="stylesheet" href="css\reset.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\structure.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Lora" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-- brown box -->
+    <div class="brown-box-div">
+      <div class="brown-box"></div>
+    </div>
+    <!-- desktop nav -->
+    <div class="nav">
+      <div class="brand ">
+        <a href="index.html"><img class="logo" src="img\logo.png" /></a>
       </div>
-      <!-- desktop nav -->
-      <div class="nav">
-        <div class="brand ">
-          <a href="index.html"><img class="logo" src="img\logo.png"/></a>
-        </div>
-        <div class="page-nav">
-          <a class="nav-item" href="index.html#showcase">Work</a>
-          <a class="nav-item" href="about-me.html">About</a>
-          <a class="nav-item" href="mailto:doke.marti@gmail.com">Contact</a>
-        </div>
-        <div class="social">
-          <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+      <div class="page-nav">
+        <a class="nav-item" href="index.html#showcase">Work</a>
+        <a class="nav-item" href="about-me.html">About</a>
+        <a class="nav-item" href="mailto:doke.marti@gmail.com">Contact</a>
+      </div>
+      <div class="social">
+        <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="hamburger-icon">
+        <span style="font-size:25px;cursor:pointer;color: #373737" onclick="openNav()">&#9776;</span>
+      </div>
+    </div>
+    <!-- mobile nav -->
+    <div id="myNav" class="hamburger-menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="menu">
+        <a class="menu-items" href="index.html#showcase">Work</a>
+        <a class="menu-items" href="about-me.html">About</a>
+        <a class="menu-items" href="mailto:doke.marti@gmail.com">Contact</a>
+        <div class="menu-items">
+          <ul class="ul-social">
+            <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
+          </ul>
         </div>
       </div>
-      <!-- mobile nav -->
-      <!-- <div id="myNav" class="hamburger-menu">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="menu">
-          <a class="menu-items" href="index.html#showcase">Work</a>
-          <a class="menu-items" href="about-me.html">About</a>
-          <a class="menu-items" href="mailto:doke.marti@gmail.com">Contact</a>
-          <div class="menu-items">
-            <ul class="ul-social">
-              <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              <a class="social-item" href="https://www.instagram.com/martidokedesign/" target="_blank"><i class="fab fa-instagram"></i></a>
-              <a class="social-item" href="https://github.com/martidoke" target="_blank"><i class="fab fa-github"></i></a>
-            </ul>
-          </div>
+    </div>
+    <!-- hero -->
+    <!-- hero -->
+    <div class="full-width">
+      <section id="case-study-hero">
+        <div class="case-study-intro">
+          <div class="greeting">Hi there!</div>
+          <h1>I'm Marti Doke</h1>
+          <h3 class="thin">&amp; this is a bit about me.</h3>
+          <a href="img\resume.pdf" target="_blank"><button type="button" name="button">View My Resume</button></a>
         </div>
-      </div>
-      <span style="font-size:25px;cursor:pointer;color: #373737" onclick="openNav()">&#9776;</span> -->
-      <!-- hero -->
-      <!-- hero -->
-      <div class="full-width">
-        <section id="case-study-hero">
-          <div class="case-study-intro">
-            <div class="greeting">Hi there!</div>
-            <h1>I'm Marti Doke</h1>
-            <h3 class="thin">&amp; this is a bit about me.</h3>
-            <a href="https://invis.io/UDQMFM19V3S" target="_blank"><button type="button" name="button">View My Resume</button></a>
-          </div>
-          <div class="bio-image">
-            <img src="img\bio-picture.png" alt="Meet Marti!">
-          </div>
-        </section>
-      </div>
-    </header>
+        <div class="bio-image">
+          <img src="img\bio-picture.png" alt="Meet Marti!">
+        </div>
+      </section>
+    </div>
+  </header>
 
 
 
@@ -74,7 +77,9 @@
     <section id="in-short" class="full-width">
       <center>
         <h4>In Short</h4>
-        <p>I come to design with a background in business marketing. Directly after my undergraduate career, I was hired as a B2B lead generation email marketer. There I learned how to code out deployments and took pride in redesigning templates in order to optimize our campaigns. After realizing I had become the team’s go-to for design and tech questions, I decided a career that aligned closer to these responsibilities was something I wanted a future in. This is what ultimately led me to Bloc – an online UX apprenticeship. My hope for the future is that I can use my creative problem-solving skills to help my current and future users. </p>
+        <p>I come to design with a background in business marketing. Directly after my undergraduate career, I was hired as a B2B lead generation email marketer. There I learned how to code out deployments and took pride in redesigning templates in
+          order to optimize our campaigns. After realizing I had become the team’s go-to for design and tech questions, I decided a career that aligned closer to these responsibilities was something I wanted a future in. This is what ultimately led
+          me to Bloc – an online UX apprenticeship. My hope for the future is that I can use my creative problem-solving skills to help my current and future users. </p>
       </center>
     </section>
   </div>
@@ -86,15 +91,24 @@
       <section id="about-me">
         <div class="bio">
           <h4>A Tad Longer...</h4>
-          <p>As a kid, I was infamous for my long-winded stories. Dramatic, elaborate, and biased, I always made myself come across as the heroic protagonist (I mean if I don’t look good in the story, I’m obviously telling it wrong, right?). Later on, these stories became more humorous and centered around the reaction of my audience. While they were still a bit self-centered, I realized my role was as an entertainer and grew empathetic to the message I was delivering.</p>
-          <p>Fast forward to my undergrad, it became clear to me that I was a creative with a linear train of thought. Someone who loved processes but also found instances in which I wanted to push the boundaries. Considering I was in the school of business, I felt like my natural fit was marketing. Creating marketing campaigns. There I learned market research methods, targeting methods, and the importance of your stakeholders. I was ecstatic to find something that on paper was so fitting. A profession centered around data, strategy, and creativity.</p>
-          <p>My first job right out of college was at a firm that did B2B lead gen email marketing. I was blessed with the opportunity to learn all about the value of market research, testing, and audience acquisition costs but was continuously fixated on how poorly designed the templates were. I was trained briefly in HTML & CSS code but as I dug deeper into the language, I became so fascinated by what minor tweaks did to the overall success of our campaigns. Shortly after, I realized I had become the go-to for all things layout and code related. This realization is what ultimately led me down my life altering late-night Google search rabbit hole and to my UX apprenticeship – Bloc.</p>
-          <p>Throughout the program, I was challenged to see everything from the user’s perspective. Coming from a industry so obsessed with conversions, it was a little difficult at first to take a step back and treat the user to an easy experience instead of prodding them to complete my desired action. Empathizing with their every move has allowed me to evaluate my work more thoroughly and ultimately learn from my users.</p>
-          <p>So why design? Design is essential to take the mundane parts of our world and help make them shine. It allows for an already credible message to enhance in quality, raise in visibility, and help create and maintain a relationship with your users. My goal is to use my understanding of business marketing and design to closely align the goals of all our stakeholders with our solution. Obviously, this will take a whole career to excel at but I’m excited for the challenge.</p>
+          <p>As a kid, I was infamous for my long-winded stories. Dramatic, elaborate, and biased, I always made myself come across as the heroic protagonist (I mean if I don’t look good in the story, I’m obviously telling it wrong, right?). Later
+            on, these stories became more humorous and centered around the reaction of my audience. While they were still a bit self-centered, I realized my role was as an entertainer and grew empathetic to the message I was delivering.</p>
+          <p>Fast forward to my undergrad, it became clear to me that I was a creative with a linear train of thought. Someone who loved processes but also found instances in which I wanted to push the boundaries. Considering I was in the school of
+            business, I felt like my natural fit was marketing. Creating marketing campaigns. There I learned market research methods, targeting methods, and the importance of your stakeholders. I was ecstatic to find something that on paper was so
+            fitting. A profession centered around data, strategy, and creativity.</p>
+          <p>My first job right out of college was at a firm that did B2B lead gen email marketing. I was blessed with the opportunity to learn all about the value of market research, testing, and audience acquisition costs but was continuously
+            fixated on how poorly designed the templates were. I was trained briefly in HTML & CSS code but as I dug deeper into the language, I became so fascinated by what minor tweaks did to the overall success of our campaigns. Shortly after, I
+            realized I had become the go-to for all things layout and code related. This realization is what ultimately led me down my life altering late-night Google search rabbit hole and to my UX apprenticeship – Bloc.</p>
+          <p>Throughout the program, I was challenged to see everything from the user’s perspective. Coming from a industry so obsessed with conversions, it was a little difficult at first to take a step back and treat the user to an easy experience
+            instead of prodding them to complete my desired action. Empathizing with their every move has allowed me to evaluate my work more thoroughly and ultimately learn from my users.</p>
+          <p>So why design? Design is essential to take the mundane parts of our world and help make them shine. It allows for an already credible message to enhance in quality, raise in visibility, and help create and maintain a relationship with
+            your users. My goal is to use my understanding of business marketing and design to closely align the goals of all our stakeholders with our solution. Obviously, this will take a whole career to excel at but I’m excited for the challenge.
+          </p>
         </div>
         <div class="sidebar">
           <h4>A Few Fun Facts</h4>
-          <p>I have a deep and passionate love for whiteboards. No room in my house is complete without one. Whether it be for a quick note, pro-con list, or updated life plan, I will always pull one of those bad boys out to visually work through my thoughts.</p>
+          <p>I have a deep and passionate love for whiteboards. No room in my house is complete without one. Whether it be for a quick note, pro-con list, or updated life plan, I will always pull one of those bad boys out to visually work through my
+            thoughts.</p>
           <p>I grew up as a competitive dancer but excelled at tap specifically. Something about hearing the patterns while watching them always just made sense to me and to this day I break out those old shoes just to mess around in the garage.</p>
           <p>I have an unhealthy obsession with the song September by Earth, Wind, and Fire. It is always my go-to song suggestion and I have yet to run into a group who fails to appreciate it.</p>
           <p>I once traveled to Ghana for a month and contracted Malaria. Not an easy few days but man does it make for a cool story.</p>

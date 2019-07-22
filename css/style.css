@@ -27,7 +27,7 @@ h3 {
 h4 {
   font-size: 2rem;
   padding-bottom: 2rem;
-  line-height:166%;
+  line-height: 166%;
 }
 
 p {
@@ -50,8 +50,8 @@ button {
   font-family: "lora";
   margin: .5rem 2rem .5rem 0;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 button:hover {
@@ -68,10 +68,7 @@ a.highlight-link:hover {
   border-bottom: 4px solid #C0B283;
 }
 
-
-ul {
-
-}
+ul {}
 
 li {
   font-family: "Lora";
@@ -105,13 +102,11 @@ footer {
   top: 8rem;
 }
 
-h1.bio-heading{
+h1.bio-heading {
   padding-top: 3rem;
 }
 
-
 /* overall body structure */
-
 .full-width {
   max-width: 1320px;
   margin: 0 auto;
@@ -123,12 +118,14 @@ h1.bio-heading{
 }
 
 /* navigation */
-
 /* mobile menu */
+.hamburger-icon {
+  display:none;
+}
 
 .hamburger-menu {
   background-color: #dcd0c0;
-  display:none;
+  display: none;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -157,20 +154,21 @@ h1.bio-heading{
   color: #f4f4f4;
 }
 
-
 .hamburger-menu a:hover, .hamburger-menu a:focus {
   color: #373737;
 }
 
 @media screen and (max-height: 450px) {
-  .hamburger-menu a {font-size: 20px}
+  .hamburger-menu a {
+    font-size: 20px
+  }
+
   .hamburger-menu .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
-
 
 .menu-items {
   padding: 2rem;
@@ -181,7 +179,7 @@ h1.bio-heading{
   color: #f4f4f4;
 }
 
-.menu ul{
+.menu ul {
   align-self: center;
   padding-left: 1.2rem;
 }
@@ -243,27 +241,31 @@ i:hover {
 footer {
   color: #C0B283;
   font-size: 1.4rem;
-  text-align:right;
-  max-width:1320px;
+  text-align: right;
+  max-width: 1320px;
   margin: 2rem 2rem 5rem auto;
 }
 
-
 /** media queries **/
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   html {
-    font-size:8px;
+    font-size: 8px;
   }
+
+  .hamburger-icon {
+    display:flex;
+  }
+
   .hamburger-menu {
     display: inline-flex;
   }
+
   .intro-image img, .case-study-image img, .bio-image img {
     justify-content: left;
-    width:100%;
-  }
-  .page-nav, .social {
-    display:none;
+    width: 100%;
   }
 
+  .page-nav, .social {
+    display: none;
+  }
 }
