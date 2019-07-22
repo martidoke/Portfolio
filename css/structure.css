@@ -232,12 +232,16 @@
 
   /** media queries **/
   @media only screen and (max-width: 800px) {
-    .hero-image, .case-study-image, .bio-image {
-      justify-content: flex-start;
-    }
-
     html {
       font-size: 8px;
+    }
+
+  .hero-image img, .case-study-image img, .bio-image img {
+    width:100%;
+  }
+
+    .hero-image, .case-study-image, .bio-image {
+      justify-content: flex-start;
     }
   }
 
