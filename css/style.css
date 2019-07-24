@@ -152,11 +152,19 @@ h1.bio-heading {
   right: 4rem;
   font-size: 4rem;
   text-decoration: none;
+  color: #373737;
+}
+
+.reverse i {
+  color: #373737;
+}
+
+.reverse i:hover {
   color: #f4f4f4;
 }
 
 .hamburger-menu a:hover, .hamburger-menu a:focus {
-  color: #373737;
+  color: #f6f6f6;
 }
 
 @media screen and (max-height: 450px) {
@@ -177,7 +185,7 @@ h1.bio-heading {
   display: block;
   transition: 0.3s;
   font-size: 3rem;
-  color: #f4f4f4;
+  color: #373737;
 }
 
 .menu ul {
@@ -233,6 +241,7 @@ a.nav-item:hover {
   flex: 0 0 0;
   font-size: 2rem;
   padding-right: 1.2rem;
+  color: #f4f4f4;
 }
 
 i:hover {
