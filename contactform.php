@@ -1,16 +1,13 @@
 <?php
+if(isset($_POST['submit'])){
+    $to = "hello@martidoke.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
 
-if (isset($_POST['submit'])) {
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $message = $_POST['message'];
-
-  $mailTo = "hello@martidoke.com";
-  $headers = "From: ".$email;
-  $txt = "You have received an email from ".$name.".\n\n".$message;
-
-  mail($mailTo, $txt, $headers);
-  header("Location: about-me.html?mailsend");
-}
-
+    $headers = "From:" . $from;
+    mail($to,$message,$headers);
+    echo "Mail Sent. Thank you, " . $name . ". I will be in touch shortly.";
+    }
 ?>
