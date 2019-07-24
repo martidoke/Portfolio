@@ -26,7 +26,7 @@
       <div class="page-nav">
         <a class="nav-item" href="index.html#showcase">Work</a>
         <a class="nav-item" href="about-me.html">About</a>
-        <a class="nav-item" href="mailto:doke.marti@gmail.com">Contact</a>
+        <a class="nav-item" href="#contact">Contact</a>
       </div>
       <div class="social">
         <a class="social-item" href="https://www.linkedin.com/in/marti-doke/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -117,7 +117,25 @@
       </section>
     </div>
   </div>
-  <footer class="full-width">
+  <div class="contact-us">
+    <form id="contact" action="contactform.php" method="post">
+      <h4>Quick Contact</h4>
+      <h3>Contact us today, and get reply with in 24 hours!</h3>
+      <fieldset>
+        <input placeholder="Your name" type="text" name="name" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" name="email" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here :)" name="message" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  <footer class="full-width" >
     2019 | Designed & Developed by Marti Doke
   </footer>
   <script>
