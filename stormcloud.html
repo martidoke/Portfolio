@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Lora" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="icon" href="img/favicon.png">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+  <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 </head>
 
 <body>
@@ -60,13 +63,48 @@
       <section id="case-study-hero">
         <div class="case-study-intro">
           <h1>StormCloud</h1>
-          <h3><a class="highlight-link" href="#research">Research</a> | <a class="highlight-link" href="#informational-arch">Information Architecture</a> | <a class="highlight-link" href="#branding">Branding</a> | <a class="highlight-link"
-              href="#design">UI Design</a> | <a class="highlight-link" href="#conclusion">Conclusion</a></h3>
+          <h3><a class="highlight-link" href="#research">Research</a> | <a class="highlight-link" href="#informational-arch">Information Architecture</a> | <a class="highlight-link" href="#branding">Branding</a> | <a class="highlight-link" href="#design">UI Design</a> | <a class="highlight-link" href="#conclusion">Conclusion</a></h3>
           <p>StormCloud is a cloud storage application that connects teams to each other as well as to brainstorming materials such as whiteboards and pinboards.</p>
-          <a href="https://invis.io/UDQMFM19V3S" target="_blank"><button type="button" name="button">View Prototype</button></a>
+          <a href="https://invis.io/UDQMFM19V3S" target="_blank"><button type="button" name="button">Desktop Prototype</button></a>
+          <a href="https://invis.io/X3QGE7G45RA" target="_blank"><button type="button" name="button">Mobile Prototype</button></a>
         </div>
         <div class="case-study-image">
           <img src="img\stormcloud-mockup.png" alt="StormCloud Mockup">
+        </div>
+      </section>
+      <section id="case-study-details" class="white-background">
+        <div class="roles details">
+          <center><h4>Roles</h4>
+          <ul>
+            <li>User researcher</li>
+            <li>Content strategist</li>
+            <li>UX designer</li>
+            <li>Branding designer</li>
+            <li>Visual designer</li>
+          </ul></center>
+        </div>
+        <div class="deliverables details">
+          <center><h4>Deliverables</h4>
+          <ul>
+            <li>Competitive analysis</li>
+            <li>Survey results</li>
+            <li>User personas</li>
+            <li>User stories</li>
+            <li>User flows</li>
+            <li>Wireframes</li>
+            <li>Prototypes</li>
+            <li>Branding materials</li>
+          </ul></center>
+        </div>
+        <div class="tools details">
+          <center><h4>Tools</h4>
+          <ul>
+            <li>Sketch</li>
+            <li>Figma</li>
+            <li>UsabilityHub</li>
+            <li>Maze</li>
+            <li>InVision</li>
+          </ul></center>
         </div>
       </section>
     </div>
@@ -75,7 +113,7 @@
 
 
   <!-- problem and solution -->
-  <div class="white-background">
+  <div class="brown-background">
     <section id="prob-solut" class="full-width">
       <div class="problem">
         <h4>Problem</h4>
@@ -85,7 +123,7 @@
       <div class="solution">
         <h4>Solution</h4>
         <p>With a rapidly growing focus on international business and connectivity is it really all that surprising that storage cloud applications are on the rise? Globally integrated networks are enabling new, highly complex business models and
-          StormCloud is here to support that growth in a niche specific way. With features dedicated to whiteboard and pinboard collaboration, you can be on the go while also still being in the loop.</p>
+            StormCloud is here to support that growth in a niche specific way. With features dedicated to whiteboard and pinboard collaboration, you can be on the go while also still being in the loop.</p>
       </div>
     </section>
   </div>
@@ -103,15 +141,15 @@
             <h4>Competitive Analysis</h4>
             <p>Considering there was no specific niche focused on in the project brief, I relied heavily on user research and competitive analysis to see where I could make a mark. Through a quick SWOT analysis (presented below), it became clear to
               me that the corporate sector is in a constant need for the best and most optimized applications. So, I dug a bit deeper to see what that would look like.</p>
-            <ul class="content-images">
-              <li><a href="img\swot-google.png" target="_blank"><img src="img\swot-google.png" alt="Google SWOT"></a></li>
-              <li><a href="img\swot-evernote.png" target="_blank"><img src="img\swot-evernote.png" alt="Evernote SWOT"></a></li>
-              <li><a href="img\swot-onedrive.png" target="_blank"><img src="img\swot-onedrive.png" alt="OneDrive SWOT"></a></li>
+            <ul class="content-images chocolat-parent">
+              <li><a href="img\swot-google.png" class="chocolat-image" title="Google SWOT"><img src="img\swot-google.png" alt="Google SWOT"></a></li>
+              <li><a href="img\swot-evernote.png" class="chocolat-image" title="Evernote SWOT"><img src="img\swot-evernote.png" alt="Evernote SWOT"></a></li>
+              <li><a href="img\swot-onedrive.png" class="chocolat-image" title="OneDrive SWOT"><img src="img\swot-onedrive.png" alt="OneDrive SWOT"></a></li>
             </ul>
           </section>
           <section class="topic">
             <h4>Survey</h4>
-            <p>My next step was to create a user survey to learn, among other things, the following:</p>
+            <p>My next step was to create a <a href="https://forms.gle/8xK8zxegjVJGTws18" target="_blank" class="case-study-link">user survey</a> to learn, among other things, the following:</p>
             <ul>
               <li>- How often they use cloud storage applications.</li>
               <li>- Which cloud storage application users use most frequently.</li>
@@ -131,9 +169,9 @@
           <section>
             <h4>User Personas</h4>
             <p>With these questions painting a picture, I decided to dive into the minds of some of my responders. Through this exercise, I was able to further understand their motivations, pain points, and goals.</p>
-            <ul class="content-images">
-              <li><a href="img\userpersona-ethan.png" target="_blank"><img src="img\userpersona-ethan.png" alt="Persona 1"></a></li>
-              <li><a href="img\userpersona-ava.png" target="_blank"><img src="img\userpersona-ava.png" alt="Persona 2"></a></li>
+            <ul class="content-images chocolat-parent">
+              <li><a href="img\userpersona-ethan.png" class="chocolat-image" title="Meet Ethan!"><img src="img\userpersona-ethan.png" alt="Meet Ethan!"></a></li>
+              <li><a href="img\userpersona-ava.png" class="chocolat-image" title="Meet Ava!"><img src="img\userpersona-ava.png" alt="Meet Ava!"></a></li>
             </ul>
           </section>
         </div>
@@ -152,27 +190,30 @@
               <h4>User Stories, User Flows, and Site Map</h4>
               <p>Okay. So, now at this point I had a pretty good idea of where I was headed. A business focused application making it a breeze to collaborate on the go. Boom. Good to go. Now all I had to do was actually make that a reality. First
                 step of this momentous task was creating user stories, user flows, and a site map. Below are pictures of my final products.</p>
-              <ul class="content-images">
-                <li><a href="img\user-flow.png" target="_blank"><img src="img\user-flow.png" alt="User Flow"></a></li>
-                <li><a href="img\site-map.png" target="_blank"><img src="img\site-map.png" alt="Site Map"></a></li>
+              <ul class="content-images chocolat-parent">
+                <li><a href="img\user-stories.png" class="chocolat-image" title="User Stories"><img src="img\user-stories.png" alt="User Stories" ></a>
+                <li><a href="img\user-flow.png" class="chocolat-image" title="User Flow"><img src="img\user-flow.png" alt="User Flow"></a></li>
+                <li><a href="img\site-map.png" class="chocolat-image" title="Site Map"><img src="img\site-map.png" alt="Site Map"></a></li>
               </ul>
-              <!-- <div class="content-images">
-                <a href="img\user-flow.png" target="_blank"><img src="img\user-flow.png" alt="User Flow"></a>
-                <a href="img\site-map.png" target="_blank"><img src="img\site-map.png" alt="Site Map"></a>
-              </div> -->
             </section>
             <section class="topic">
               <h4>Wireframing and Prototyping</h4>
               <p>Following my little blueprint stage, I jumped feet first into the constructing phase. Wireframes and prototyping galore! First on my to-do list were the obvious screens – homepage, log in/sign up, and dashboard. With a general feel
                 for my application’s personality, I moved onto the more unique screens – whiteboard, pinboard, share screen, etc. After my foot started to fall asleep (a few hours in), I figured it was a great time to take a step back and let some
                 potential users give my wireframes a shot.</p>
+              <ul class="content-images chocolat-parent">
+                <li><a href="img\sign-up.png" class="chocolat-image" title="Sign Up sketch"><img src="img\sign-up.png" alt="Sign Up sketch" ></a>
+                <li><a href="img\home-screen.png" class="chocolat-image" title="Home Screen sketch"><img src="img\home-screen.png" alt="Home Screen sketch"></a></li>
+                <li><a href="img\workspace.png" class="chocolat-image" title="Workspace sketch"><img src="img\workspace.png" alt="Workspace sketch"></a></li>
+              </ul>
+              <br>
               <a href="https://invis.io/HCQ3X47WG5S" target="_blank"><button type="button" class="button">Wireframe Prototype</button></a><br />
             </section>
             <br />
             <section>
               <h4>Usability Testing</h4>
               <p>Luckily enough for me, I had a few friends who had nothing better to do on a Saturday afternoon and were easily persuaded into being my first usability test participants! Woohoo! I walked them through my script, let them soak in my
-                extraordinary wireframes, and then asked them to perform some critical tasks – sign up for an account, add a piece of content, and organize that content.</p>
+                extraordinary wireframes, and then asked them to perform some critical tasks – sign up for an account, add a piece of content, and organize that content. Go ahead and take a peak at the <a class="case-study-link" href="https://docs.google.com/document/d/1tELTxnaOqlfaPfEJIzggKeeWaxosZIHg6y_XHirwaC4/edit?usp=sharing" target="_blank" >results</a> if you'd like.</p>
               <p>Considering they were staring at variously shaded grey boxes, my test subjects seemed to have a pretty decent grasp on the flow and functionality of StormCloud. With only a few blank stares and mis clicks made, it was clear to me
                 that my wireframes were on the right track. After a quick rework of the content creation process, I was ready to go onto some branding.</p>
             </section>
@@ -187,16 +228,29 @@
           <h2 class="sticky">Branding: First Impressions Can Be Tough</h2>
         </div>
         <div class="content">
-          <section class="topic img-max">
+          <section class="topic">
             <h4>Sketching and Refining</h4>
             <p>Here’s a quick fun fact for ya. I work as a marketer and frequently help with a quick rebranding here and there but man was I NOT ready for the indecisiveness that would ensue as I was branding my own project. I suffered through the
               sketching process and really lacked a spark of creativity during the entire exploration process. Somehow my mind got stuck on the concept of a Venn-diagram and alas! The StormCloud logo was born!</p>
-            <a href="img\logo-sketch.png" target="_blank"><img src="img\logo-sketch.png" alt="Logo sketch"></a>
+              <ul class="content-images chocolat-parent">
+                <li><a href="img\sketch-mindmap.png" class="chocolat-image" title="Branding Mindmap"><img src="img\sketch-mindmap.png" alt="Branding mindmap" ></a>
+                <li><a href="img\logo-sketch.png" class="chocolat-image" title="Logo Sketches"><img src="img\logo-sketch.png" alt="Logo sketches"></a></li>
+              </ul>
           </section>
-          <section class="img-max">
+          <section class="topic ">
+            <h4>Style Guide</h4>
+            <p>Here’s a quick fun fact for ya. I work as a marketer and frequently help with a quick rebranding here and there but man was I NOT ready for the indecisiveness that would ensue as I was branding my own project. I suffered through the
+              sketching process and really lacked a spark of creativity during the entire exploration process. Somehow my mind got stuck on the concept of a Venn-diagram and alas! The StormCloud logo was born!</p>
+              <ul class="content-images chocolat-parent">
+                <li><a href="img\style-guide.png" class="chocolat-image" title="StormCloud Style Guide"><img src="img\style-guide.png" alt="StormCloud Style Guide"></a></li>
+              </ul>
+          </section>
+          <section class="img-max ">
             <h4>Defining</h4>
-            <p>With a quick dive into logo iteration, typography, color schemes, and moodboarding, I developed a bright yet professional image that I am pretty dang into.</p>
-            <a href="img\stormcloud-casestudy.png" target="_blank"><img src="img\stormcloud-casestudy.png" alt="StormCloud"></a>
+            <p>After a quick dive into logo iteration, typography, color schemes, and <a href "https://www.figma.com/file/fFHPric9vdnO73yxTEIPA3WE/StormCloud-Moodboard?node-id=0%3A1" class ="case-study-link" target="blank">moodboarding</a>, I developed a bright yet professional image that I am pretty dang into.</p>
+            <ul class="content-images chocolat-parent">
+              <li><a href="img\stormcloud-casestudy.png" class="chocolat-image" title="StormCloud Final Logo"><img src="img\stormcloud-casestudy.png" alt="StormCloud"></a></li>
+            </ul>
           </section>
         </div>
       </section>
@@ -210,10 +264,16 @@
             <h2 class="sticky">UI Design: She is Beauty. She is Grace.</h2>
           </div>
           <div class="content">
-            <section class="">
+            <section class="topic">
               <h4>Mockups</h4>
               <p>Now that I was feeling myself and my brand, it was time to get down and dirty with my high-fidelity mockups. As nitty and as gritty as it may have seemed, I found this step to often be the most soothing part of my day. Just messing
                 around with spacing and alignment, images, and object shaping proved to be such an odd therapeutic outlet. With an iteration ready, I sent it back to the prototyping phase to have it tested by users a bit more thoroughly.</p>
+              <ul class="content-images chocolat-parent">
+                <li><a href="img\hifi-dashboard.png" class="chocolat-image" title="StormCloud Dashboard"><img src="img\hifi-dashboard.png" alt="StormCloud Dashboard"></a></li>
+                <li><a href="img\hifi-signup.png" class="chocolat-image" title="StormCloud Sign Up"><img src="img\hifi-signup.png" alt="StormCloud Sign Up"></a></li>
+                <li><a href="img\hifi-whiteboard.png" class="chocolat-image" title="StormCloud Whiteboard"><img src="img\hifi-whiteboard.png" alt="StormCloud Whiteboard"></a></li>
+</ul>
+
             </section>
             <section>
               <h4>Prototyping and Usability Testing</h4>
@@ -249,9 +309,14 @@
     </div>
   </div>
   <footer class="full-width">
-    2019 | Designed & Developed by Marti Doke
+    &copy; 2019 | Designed & Developed by Marti Doke
   </footer>
   <script>
+
+  $(document).ready(function(){
+    $('.chocolat-parent').Chocolat();
+});
+
   function openNav() {
     document.getElementById("myNav").style.width = "100%";
     document.getElementById("myNav").style.display = "inline-flex";

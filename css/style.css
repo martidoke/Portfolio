@@ -59,14 +59,29 @@ button:hover {
   color: #f4f4f4;
 }
 
-a.highlight-link {
+.highlight-link {
   text-decoration: none;
   color: #373737;
+  position: relative;
 }
 
-a.highlight-link:hover {
-  border-bottom: 4px solid #C0B283;
+.highlight-link:after {
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  left: 0;
+  background: #AFA278;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
 }
+
+.highlight-link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #AFA278;
+}
+
 
 ul {}
 
@@ -116,6 +131,9 @@ h1.bio-heading {
 
 .white-background {
   background-color: white;
+}
+.brown-background {
+  background-color: #DCD0C0;
 }
 
 /* navigation */
@@ -247,6 +265,34 @@ a.nav-item:hover {
 i:hover {
   color: #373737;
 }
+
+/* case study stylization */
+
+.case-study-link {
+  text-decoration: none;
+  color: #AFA278;
+  position: relative;
+}
+
+.case-study-link:after {
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 1px;
+  left: 0;
+  background: #AFA278;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.case-study-link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #AFA278;
+}
+
+
 
 footer {
   color: #C0B283;
