@@ -3,6 +3,7 @@ html {
   color: #373737;
   font-family: "Lato";
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -59,10 +60,9 @@ button:hover {
   color: #f4f4f4;
 }
 
-mark {
-  background-color: rgb(220, 208, 192, 0.5);
-  height: 75%;
-  /* background-color: #C0B283; */
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, rgb(220, 208, 192, 0.6)35%);
 }
 
 .highlight-link {
