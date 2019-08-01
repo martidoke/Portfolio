@@ -222,6 +222,53 @@ fieldset {
   resize:none;
 }
 
+/* case study specs */
+
+#case-study-specs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  padding: 5rem;
+}
+
+.prob-solution {
+  flex: 2 1 450px;
+  padding-right: 5%;
+}
+
+.solution p {
+  padding-bottom: 1rem;
+}
+
+.details {
+  flex: 1 1 275px;
+  align-items:center;
+  border-left: 3px solid #C0B283;
+  height: 75%;
+
+}
+
+.border-spacing {
+  padding-right: 3rem;
+}
+
+.roles h4, .deliverables h4, .tools h4 {
+  font-size: 1.6rem;
+  padding-bottom: .8rem;
+  padding-left: 5rem;
+}
+
+.details p {
+  font-size: 1.4rem;
+  padding-left: 5rem;
+}
+
+.tools p{
+  padding-bottom: 0;
+}
+
+
+
 /* case study details */
 #case-study-details {
   display:flex;
@@ -231,9 +278,9 @@ fieldset {
   margin: 2rem auto 5rem auto;
 }
 
-.details {
+/* .details {
   flex: 1 1 175px;
-}
+} */
 
 /* problem and solution */
 #prob-solut {
@@ -311,6 +358,10 @@ fieldset {
     flex-direction: column;
   }
 
+  .prob-solution {
+    padding-right: 0;
+  }
+
   .details {
     padding-top: 3rem;
   }
@@ -335,11 +386,25 @@ fieldset {
     }
 
 
+
+    .details p {
+      font-size: 1.5rem;
+
+    }
+
+    .details h4 {
+      font-size: 1.9rem;
+    }
+
+
   }
 
   @media only screen and (max-width: 960px) {
     html {
       font-size: 9px;
+    }
+    .solution {
+      padding-bottom: 3rem;
     }
 
     .hamburger-icon {
