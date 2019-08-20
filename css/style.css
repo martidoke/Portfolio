@@ -53,6 +53,7 @@ button {
   cursor: pointer;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  width: 22rem;
 }
 
 button:hover {
@@ -243,7 +244,7 @@ h1.bio-heading {
 .nav-item {
   flex: 0 0 0;
   flex-wrap: wrap;
-  color: #C0B283;
+  color: #77693C;
   font-size: 1.6rem;
   font-weight: lighter;
   padding: 0 2rem;
@@ -280,7 +281,7 @@ i:hover {
 }
 
 footer {
-  color: #C0B283;
+  color: #77693C;
   text-align: right;
   max-width: 1320px;
   padding-bottom: 5rem;
