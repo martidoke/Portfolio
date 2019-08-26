@@ -379,7 +379,9 @@ fieldset {
   }
   .hamburger-menu a {
     font-size: 3rem;
-
+  }
+  .content-images {
+    flex-direction: column;
   }
 }
 
