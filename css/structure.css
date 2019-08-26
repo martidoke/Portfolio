@@ -377,6 +377,10 @@ fieldset {
   .brown-box-div {
     display: none;
   }
+  .hamburger-menu a {
+    font-size: 3rem;
+
+  }
 }
 
 @media only screen and (max:width: 750px) {
