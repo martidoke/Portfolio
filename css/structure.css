@@ -463,7 +463,9 @@ fieldset {
       justify-content: flex-start;
     }
 
-
+     h1.showcase-header{
+      font-size: 3rem;
+    }
 
     .details p {
       font-size: 1.5rem;
@@ -499,6 +501,10 @@ fieldset {
 
     .bio {
       padding-right: 2rem;
+    }
+
+    .social-item {
+      padding: 0 1.5rem;
     }
 
 
