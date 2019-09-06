@@ -39,7 +39,7 @@ p {
 }
 
 button {
-  background-color: #C0B283;
+  background-color: #B9B2A6;
   border: none;
   border-radius: 3rem;
   color: #373737;
@@ -48,7 +48,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-  font-family: "lora";
+  font-family: "lato";
   margin: .5rem 2rem .5rem 0;
   cursor: pointer;
   -webkit-transition-duration: 0.5s;
@@ -244,7 +244,7 @@ h1.bio-heading {
 .nav-item {
   flex: 0 0 0;
   flex-wrap: wrap;
-  color: #77693C;
+  color: #373737;
   font-size: 1.6rem;
   font-weight: lighter;
   padding: 0 2rem;
