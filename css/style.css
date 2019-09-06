@@ -1,3 +1,11 @@
+:root {
+  --lightbrown: #DCD0C0;
+  --black: #373737;
+  --white: #ffffff;
+  --offwhite: #f4f4f4;
+  --darkbrown:
+}
+
 html {
   background-color: #F4F4F4;
   color: #373737;
@@ -31,6 +39,19 @@ h4 {
   line-height: 166%;
 }
 
+h5 {
+  font-size: 1.6rem;
+  font-family: "lato";
+  padding: 1.5rem 0 1rem 0;
+}
+
+h6 {
+  font-size: 1.4rem;
+  font-family: "lato";
+  padding: 0 0 1rem 0;
+  font-weight: lighter;
+}
+
 p {
   font-family: "Lora";
   font-size: 1.6rem;
@@ -39,16 +60,16 @@ p {
 }
 
 button {
-  background-color: #C0B283;
+  background-color: #726A63;
   border: none;
   border-radius: 3rem;
-  color: #373737;
+  color: #f4f4f4;
   padding: 1.5rem 3.2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-  font-family: "lora";
+  font-family: "Lato";
   margin: .5rem 2rem .5rem 0;
   cursor: pointer;
   -webkit-transition-duration: 0.5s;
@@ -63,7 +84,7 @@ button:hover {
 
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, rgb(220, 208, 192, 0.6)35%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, rgb(175,168,157, 0.5)45%);
 }
 
 .highlight-link {
@@ -79,7 +100,7 @@ button:hover {
   height: 3px;
   display: block;
   left: 0;
-  background: #AFA278;
+  background: #DCD0C0;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
 }
@@ -87,7 +108,7 @@ button:hover {
 .highlight-link:hover:after {
   width: 100%;
   left: 0;
-  background: #AFA278;
+  background: #DCD0C0;
 }
 
 ul {}
@@ -126,6 +147,10 @@ footer {
 
 h1.bio-heading {
   padding-top: 3rem;
+}
+
+h4.userpersona {
+  padding: 2.5rem 0 .4rem 0;
 }
 
 /* overall body structure */
@@ -244,7 +269,7 @@ h1.bio-heading {
 .nav-item {
   flex: 0 0 0;
   flex-wrap: wrap;
-  color: #77693C;
+  color: #726A63;
   font-size: 1.6rem;
   font-weight: lighter;
   padding: 0 2rem;
@@ -276,12 +301,12 @@ i:hover {
 
 /* case study stylization */
 .case-study-link {
-  color: #a0956e;
+  color: #726A63;
   position: relative;
 }
 
 footer {
-  color: #77693C;
+  color: #373737;
   text-align: right;
   max-width: 1320px;
   padding-bottom: 5rem;

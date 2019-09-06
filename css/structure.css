@@ -57,7 +57,7 @@
 }
 
 .gold {
-  color: #77693C;
+  color: #373737;
   /* color: #C0B283; */
 }
 
@@ -244,7 +244,7 @@ fieldset {
 .details {
   flex: 1 1 275px;
   align-items:center;
-  border-left: 3px solid #C0B283;
+  border-left: 3px solid #DCD0C0;
   height: 75%;
 
 }
@@ -332,7 +332,17 @@ fieldset {
   flex-wrap: wrap;
 }
 
+/* .userstory-alignment {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 .content-images li {
+  flex: 1 1 125px;
+  padding-right: 1rem;
+}
+
+.content-images ul {
   flex: 1 1 125px;
   padding-right: 1rem;
 }
@@ -344,6 +354,53 @@ fieldset {
 .img-max img {
   width: 100%;
 }
+
+.userpersona-setup {
+  padding:0 0 1.5rem 0;
+}
+
+.userpersona-list li {
+  font-size: 1.4rem;
+}
+
+.userstory-spacing {
+  margin-bottom: 2rem;
+}
+
+.userstory-title {
+  font-size: 3rem;
+  font-family: "Lora";
+  font-weight: lighter;
+  margin-bottom: 1.5rem;
+}
+
+.userstory-items {
+  font-family: "lato";
+}
+
+.userstory-intro {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "lato";
+  padding-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+.red {
+  border-bottom: .2rem solid red;
+  width:75%;
+}
+
+.yellow {
+  border-bottom: .2rem solid #FFD662;
+  width:75%;
+}
+
+.green {
+  border-bottom: .2rem solid #4CAF50;
+  width:75%;
+}
+
 
 #research {}
 
@@ -383,6 +440,10 @@ fieldset {
   .content-images {
     flex-direction: column;
   }
+
+  .red, .green, .yellow {
+    width: 50%;
+  }
 }
 
 @media only screen and (max:width: 750px) {
@@ -402,7 +463,9 @@ fieldset {
       justify-content: flex-start;
     }
 
-
+     h1.showcase-header{
+      font-size: 3rem;
+    }
 
     .details p {
       font-size: 1.5rem;
@@ -438,6 +501,10 @@ fieldset {
 
     .bio {
       padding-right: 2rem;
+    }
+
+    .social-item {
+      padding: 0 1.5rem;
     }
 
 
