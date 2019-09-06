@@ -1,11 +1,3 @@
-:root {
-  --lightbrown: #DCD0C0;
-  --black: #373737;
-  --white: #ffffff;
-  --offwhite: #f4f4f4;
-  --darkbrown:
-}
-
 html {
   background-color: #F4F4F4;
   color: #373737;
@@ -39,19 +31,6 @@ h4 {
   line-height: 166%;
 }
 
-h5 {
-  font-size: 1.6rem;
-  font-family: "lato";
-  padding: 1.5rem 0 1rem 0;
-}
-
-h6 {
-  font-size: 1.4rem;
-  font-family: "lato";
-  padding: 0 0 1rem 0;
-  font-weight: lighter;
-}
-
 p {
   font-family: "Lora";
   font-size: 1.6rem;
@@ -60,24 +39,16 @@ p {
 }
 
 button {
-<<<<<<< HEAD
-  background-color: #B9B2A6;
-=======
-  background-color: #726A63;
->>>>>>> 066fe9003f395b41451f55795881cd09a8ba2857
+  background-color: #C0B283;
   border: none;
   border-radius: 3rem;
-  color: #f4f4f4;
+  color: #373737;
   padding: 1.5rem 3.2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-<<<<<<< HEAD
-  font-family: "lato";
-=======
-  font-family: "Lato";
->>>>>>> 066fe9003f395b41451f55795881cd09a8ba2857
+  font-family: "lora";
   margin: .5rem 2rem .5rem 0;
   cursor: pointer;
   -webkit-transition-duration: 0.5s;
@@ -92,7 +63,7 @@ button:hover {
 
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, rgb(175,168,157, 0.5)45%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, rgb(220, 208, 192, 0.6)35%);
 }
 
 .highlight-link {
@@ -108,7 +79,7 @@ button:hover {
   height: 3px;
   display: block;
   left: 0;
-  background: #DCD0C0;
+  background: #AFA278;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
 }
@@ -116,7 +87,7 @@ button:hover {
 .highlight-link:hover:after {
   width: 100%;
   left: 0;
-  background: #DCD0C0;
+  background: #AFA278;
 }
 
 ul {}
@@ -155,10 +126,6 @@ footer {
 
 h1.bio-heading {
   padding-top: 3rem;
-}
-
-h4.userpersona {
-  padding: 2.5rem 0 .4rem 0;
 }
 
 /* overall body structure */
@@ -277,11 +244,7 @@ h4.userpersona {
 .nav-item {
   flex: 0 0 0;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  color: #373737;
-=======
-  color: #726A63;
->>>>>>> 066fe9003f395b41451f55795881cd09a8ba2857
+  color: #77693C;
   font-size: 1.6rem;
   font-weight: lighter;
   padding: 0 2rem;
@@ -313,12 +276,12 @@ i:hover {
 
 /* case study stylization */
 .case-study-link {
-  color: #726A63;
+  color: #a0956e;
   position: relative;
 }
 
 footer {
-  color: #373737;
+  color: #77693C;
   text-align: right;
   max-width: 1320px;
   padding-bottom: 5rem;
